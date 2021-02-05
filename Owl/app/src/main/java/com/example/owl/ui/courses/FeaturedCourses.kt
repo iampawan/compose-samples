@@ -18,7 +18,6 @@ package com.example.owl.ui.courses
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ConstraintLayout
 import androidx.compose.foundation.layout.ExperimentalLayout
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.padding
@@ -42,6 +41,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.constraintlayout.compose.ConstraintLayout
 import com.example.owl.R
 import com.example.owl.model.Course
 import com.example.owl.model.courses

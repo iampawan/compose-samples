@@ -86,6 +86,13 @@ dependencies {
     
     implementation Libs.AndroidX.coreKtx
     implementation Libs.AndroidX.navigation
+    implementation Libs.AndroidX.Activity.activityCompose
+    implementation(Libs.AndroidX.ConstraintLayout.constraintLayoutCompose) {
+        exclude group: 'androidx.compose.foundation'
+        exclude group: 'androidx.compose.ui'
+        exclude group: 'androidx.compose.runtime'
+        exclude group: 'androidx.compose.material'
+    }
 
     implementation Libs.AndroidX.Compose.runtime
     implementation Libs.AndroidX.Compose.foundation
